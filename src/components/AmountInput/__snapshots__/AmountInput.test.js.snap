@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    active={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 12,
+        },
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#000",
+            "fontSize": 30,
+          },
+        ],
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }
+    type="FontAwesome"
+    virtual={undefined}
+  >
+    
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    editable={true}
+    keyboardType="numeric"
+    onChangeText={[Function]}
+    selectTextOnFocus={true}
+    style={
+      Object {
+        "flex": 1,
+        "fontSize": 30,
+        "textAlign": "right",
+      }
+    }
+    value="10"
+  />
+</View>
+`;
